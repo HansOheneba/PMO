@@ -9,15 +9,9 @@ body {
   }
   :root {
     --bg-color: #100f0f;
-    --link-color: rgb(254, 201, 137);
     --link-hover-color: #b4b4b4;
   }
   
-  body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-
-  }
   header{
     display: flex;
     justify-content: space-between;
@@ -47,13 +41,14 @@ margin: auto 0;
     transition: all 0.3s ease-out;
 
   }
-  a:hover {
+  nav a:hover {
     color: black;
     background-color: bisque;
    
     
   }
   
+
   #logoName {
         
         text-align: left;
