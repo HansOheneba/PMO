@@ -1,0 +1,132 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-image: url(img/homeImg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  :root {
+    --bg-color: #100f0f;
+    --link-color: rgb(254, 201, 137);
+    --link-hover-color: #b4b4b4;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+  }
+
+  
+  nav {
+margin: auto 0;
+    overflow: hidden;
+    display: inline;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin: 20px 10px;
+    border-radius: 23px;
+    transition: all 0.3s ease-out;
+
+  }
+  a:hover {
+    color: black;
+    background-color: bisque;
+   
+    
+  }
+  
+  #logoName {
+        
+        text-align: left;
+        font-size: 30px;
+        width: fit-content;
+        color: #faebd7;
+        text-decoration: none;
+     
+      }
+  
+  #est{
+
+    font-size: 15px;
+    letter-spacing: 5px;
+    /* font-weight: 400;z */
+    margin: 0px;
+    color: #faebd7;
+    text-transform: capitalize;
+ 
+  }
+  #name{
+    line-height: 0.95;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  main{
+ position: relative;
+ display: flex;
+ justify-content: center;
+  }
+  .logo{
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    left: 46%;
+    margin-top: -50px
+
+  }
+  section .main-text {
+  margin-top: 150px;
+  font-size: 5.9em;
+  font-weight: 600;
+text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    line-height: 1;
+
+  }
+  section .sub-text {
+    color: white;
+    font-size: 20px;
+  }
+  section button{
+    position: absolute;
+    left: 47%;
+ margin-top: 110px;
+ border-radius: 25px;
+    padding: 10px 20px;
+    border: solid rgb(255, 255, 255) 1px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    font-weight: 700;
+    
+  }
+  section button:hover{
+    transform: scale(1.1);
+      background-color:  #f1d476 ;
+      color: #100f0f;
+      font-weight: 300;
+  }
+ 
