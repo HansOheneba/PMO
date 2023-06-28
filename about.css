@@ -93,6 +93,8 @@ margin: auto 0;
 #sub-hero{
    
  background-color: #ffffff;
+ height: 106vh;
+ position: relative;
 }
 #dive-text{
     margin: 0;
@@ -140,3 +142,38 @@ line-height: 6vh;
     50%  { opacity: 1;  }
     100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
   }
+  #sub-hero-container{
+    
+    width: 500px;
+    padding: 60px;
+    margin: 0 320px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  #sub-hero-text span{
+    font-size: 1.3em;
+    color: #ffc77d;
+  }
+  #parent{
+    position: relative;
+    margin-top: 12em;
+    margin-left: 20em;
+   }
+#hero-img1{
+  position: absolute;
+  left: 140px;
+  top: 220px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 20px 20px 50px grey;
+  z-index: 1;
+}
+#hero-img2{
+  position: absolute;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 20px 20px 50px grey;
+}
