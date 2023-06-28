@@ -157,8 +157,10 @@ line-height: 6vh;
     transform: translateY(-50%);
   }
   #sub-hero-text span{
-    font-size: 1.6em;
+    font-size: 3em;
     color: #ffc77d;
+    line-height: 1;
+   
 
   }
   #parent{
@@ -194,13 +196,15 @@ line-height: 6vh;
   background-repeat: no-repeat;
 }
 #sub-hero-2-text h2{
-  font-size: 3em;
-font-weight: 800;
+  font-size: 4em;
+font-weight: 600;
+line-height: 1;
 }
 #sub-hero-2-text{
   position: absolute;
-  width: 400px;
-  right: 17em;
+  width: 500px;
+  right: 14em;
   top: 17em;
   text-align: center;
+  color: rgb(109, 22, 22);
 }
