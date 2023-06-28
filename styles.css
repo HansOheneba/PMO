@@ -6,11 +6,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    padding: 0;
+    margin: 0;
   }
-  :root {
-    --bg-color: #100f0f;
-    --link-hover-color: #b4b4b4;
-  }
+  
   
   header{
     display: flex;
@@ -36,7 +35,7 @@ margin: auto 0;
     text-decoration: none;
     font-size: 20px;
     padding: 8px 16px;
-    margin: 20px 10px;
+    margin: 20px 0px;
     border-radius: 23px;
     transition: all 0.3s ease-out;
 
