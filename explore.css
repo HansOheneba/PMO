@@ -217,3 +217,8 @@ margin: 20px auto;
 .col > p{
   padding-right: 10em;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
